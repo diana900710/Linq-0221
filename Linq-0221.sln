@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第一題-序列倒置", "第一題-序列倒置\第一題-序列倒置.csproj", "{A3E8BCFB-F693-4682-AAE2-41DB21CB247D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第二題-奇偶判斷", "第二題-奇偶判斷\第二題-奇偶判斷.csproj", "{AF45B396-D709-4B6A-8D0A-C9FEAA3742BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3E8BCFB-F693-4682-AAE2-41DB21CB247D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E8BCFB-F693-4682-AAE2-41DB21CB247D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E8BCFB-F693-4682-AAE2-41DB21CB247D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E8BCFB-F693-4682-AAE2-41DB21CB247D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF45B396-D709-4B6A-8D0A-C9FEAA3742BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF45B396-D709-4B6A-8D0A-C9FEAA3742BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF45B396-D709-4B6A-8D0A-C9FEAA3742BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF45B396-D709-4B6A-8D0A-C9FEAA3742BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A74941B4-BD82-44FE-9EB5-CC58F659C1FE}
+	EndGlobalSection
+EndGlobal
