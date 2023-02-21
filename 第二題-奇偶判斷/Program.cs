@@ -16,10 +16,12 @@ namespace 第二題_奇偶判斷
             var cardinality = nums.Where((x) => x % 2 == 1).OrderBy((x) => x);
             var even = nums.Except(cardinality).OrderBy((x) => x);
             Console.Write($"奇數 : ");
-            foreach(var item in cardinality) { Console.Write("{0},", item);}
+            //foreach(var item in cardinality) { Console.Write("{0},", item);}
+            Console.WriteLine(string.Join(",", cardinality));
             Console.WriteLine();
             Console.Write($"偶數 : ");
-            foreach (var item in even) { Console.Write("{0},", item); }
+            //foreach (var item in even) { Console.Write("{0},", item); }
+            Console.WriteLine(string.Join(",", even));
 
             Console.ReadKey();
         }

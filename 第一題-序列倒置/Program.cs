@@ -14,11 +14,11 @@ namespace 第一題_序列倒置
             string result = Console.ReadLine();
             var nums = result.Split(',');
             var swap = nums.Reverse(); //倒序(非依序排列)
-            foreach ( var i in swap )
-            {
-                Console.Write("{0},", i);
-            }
-
+            //foreach ( var i in swap )
+            //{
+            //    Console.Write("{0},", i);
+            //}
+            Console.WriteLine(string.Join(",", swap));
             Console.ReadKey();
         }
     }
