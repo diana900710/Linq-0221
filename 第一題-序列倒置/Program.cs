@@ -13,7 +13,7 @@ namespace 第一題_序列倒置
             Console.Write("請輸入一組數字(用 , 分隔) : ");
             string result = Console.ReadLine();
             var nums = result.Split(',');
-            var swap = nums.Reverse(); //排序()
+            var swap = nums.Reverse(); //倒序(非依序排列)
             foreach ( var i in swap )
             {
                 Console.Write("{0},", i);
